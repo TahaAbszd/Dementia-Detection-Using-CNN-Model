@@ -136,15 +136,6 @@ Computed from the test confusion matrix:
 
 ---
 
-## Figures
-
-Place these files in `assets/` and the README will render them:
-
-- `assets/loss_curve.png`
-- `assets/confusion_matrix.png`
-
-Example:
-
 ```md
 ![Loss Curve](assets/loss_curve.png)
 ![Confusion Matrix](assets/confusion_matrix.png)
