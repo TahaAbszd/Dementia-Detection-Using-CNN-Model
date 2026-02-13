@@ -21,7 +21,9 @@ A Keras/TensorFlow **Convolutional Neural Network (CNN)** for classifying brain 
 ## Dataset Structure
 
 The notebook expects the dataset to be organized in **four folders** (one per class). Example:
+
 Data/
+
 ├── Non Demented/
 
 ├── Mild Dementia/
