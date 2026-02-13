@@ -14,7 +14,7 @@ A Keras/TensorFlow **Convolutional Neural Network (CNN)** for classifying brain 
 ## Repository Contents
 
 - `DementiaDetection.ipynb` — complete notebook: data loading, preprocessing, training, evaluation (confusion matrix), and single-image inference.
-- *(optional)* `assets/` — figures for README (loss curve + confusion matrix).
+-  `assets/` — figures for README (loss curve + confusion matrix).
 
 ---
 
@@ -23,8 +23,11 @@ A Keras/TensorFlow **Convolutional Neural Network (CNN)** for classifying brain 
 The notebook expects the dataset to be organized in **four folders** (one per class). Example:
 Data/
 ├── Non Demented/
+
 ├── Mild Dementia/
+
 ├── Moderate Dementia/
+
 └── Very mild Dementia/
 
 ⚠️ Folder naming must match your paths in the notebook. If your folder name differs (e.g., `Very Mild Dementia` vs `Very mild Dementia`), update the path accordingly.
